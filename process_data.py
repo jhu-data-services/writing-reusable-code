@@ -11,5 +11,5 @@ experiment_data['atmospheric_pressure_hpa'] = np.round(experiment_data['atmosphe
 
 print(experiment_data.head(5))
 
-write_csv(experiment_data, "C:/Users/lmckone1/writing-reusable-code/results/experiment_data_2025-01-26.csv")
+experiment_data.to_csv("C:/Users/lmckone1/writing-reusable-code/results/experiment_data_2025-01-26.csv")
 
